@@ -8,26 +8,14 @@ public class AbstractDemo {
 		sq.show();
 		r1.calArea();
 		r1.show();
-		
 		System.out.println("------------------------------------------------");
-		
-		
 		Shape shape;
 		shape=new Square(12.5f);
-		
 		shape.calArea(); // invoked Square class calArea()
 		shape.show();
-		
 		shape=new Rectangle(10,20);
-		
 		shape.calArea();
 		shape.show();
-		
-		
-		
-		
-		
-
 	}
 
 }
