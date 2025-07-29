@@ -1,6 +1,6 @@
 package day_Eight.abstarction;
 
-// Abstract base class
+
 abstract class Shape {
     abstract void calArea();
     abstract void show();
@@ -29,19 +29,17 @@ class Square extends Shape {
         System.out.println("Square Side: " + side + ", Area: " + area);
     }
 }
-
-// Rectangle class
-class Rectangle extends Shape {
+class MyRectangle extends Shape {
     private int length;
     private int breadth;
     private int area;
 
-    public Rectangle() {
+    public MyRectangle() {
         this.length = 1;
         this.breadth = 1;
     }
 
-    public Rectangle(int length, int breadth) {
+    public MyRectangle(int length, int breadth) {
         this.length = length;
         this.breadth = breadth;
     }
@@ -60,8 +58,11 @@ class Rectangle extends Shape {
 public class AbstractDemo {
     public static void main(String[] args) {
         Square sq = new Square();
-        Rectangle r1 = new Rectangle();
+        MyRectangle r1 = new MyRectangle();
         sq.calArea();
         sq.show();
         r1.calArea();
-        r
+        r1.show();
+	}
+}
+}
