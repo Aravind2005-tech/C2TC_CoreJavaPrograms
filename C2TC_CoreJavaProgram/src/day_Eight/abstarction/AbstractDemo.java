@@ -10,8 +10,7 @@ public class AbstractDemo {
 		r1.show();
 		
 		System.out.println("------------------------------------------------");
-		//Runtime Polymorphism / Dynamic binding / late binding
-		//Ex: Method Overriding
+		
 		
 		Shape shape;
 		shape=new Square(12.5f);
@@ -21,7 +20,7 @@ public class AbstractDemo {
 		
 		shape=new Rectangle(10,20);
 		
-		shape.calArea(); // invoked Rectangle class calArea()
+		shape.calArea();
 		shape.show();
 		
 		
