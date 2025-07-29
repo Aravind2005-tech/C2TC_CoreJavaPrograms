@@ -6,7 +6,7 @@ abstract class Shape {
     abstract void show();
 }
 
-// Square class
+
 class Square extends Shape {
     private float side;
     private float area;
